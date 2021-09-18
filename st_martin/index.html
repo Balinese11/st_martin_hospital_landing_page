@@ -1,0 +1,646 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="author" content="Balazs Szucs">
+    <meta name="description" content="Exemple description">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>St.Martin Hospital</title>
+    <script src="https://use.fontawesome.com/6d84eda824.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600;700&family=Barlow:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/favicon.png" />
+</head>
+
+<body>
+    <header>
+
+        <div id="info-menu">
+            <div class="container-fluid">
+                <div class="row">
+                    <ul class="social">
+                        <!-- SOCIAL -->
+                        <li class="facebook"><a href="#"><img class="icons" src="/img/social-facebook.svg"
+                                    alt="social-facebook"></a>
+                        </li>
+                        <li class="google"><a href="#"><img class="icons" src="/img/social-google-plus.svg"
+                                    alt="social-google-plus"></a>
+                        </li>
+                        <li class="mail"><a href="#"><img class="icons" src="img/mail.svg" alt="mail"></a></li>
+                    </ul>
+                    <!-- Dropdown FLAG -->
+                    <div class="nav-item dropdown flag">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <img class="flag-icons" src="img/brit-flag.svg" alt="Great Britain flag"></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown09">
+                            <a class="dropdown-item" href="#"><img class="flag-icons" src="/img/thai-flag.svg"
+                                    alt="Great Britain flag"></a>
+                        </div>
+                    </div>
+
+                    <!-- LOGIN -->
+                    <div class="col-sm-9" id="own-login">
+                        <a href="#" class="btn btn-info float-right btn-lg">
+                            <div class="row">
+                                <img id="user" src="/img/user-icon.svg" alt="user-icon">LOGIN
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- INFO -->
+                <div class="row">
+                    <div class="col-sm" id="tel">
+                        <a id="tel-text" href="tel+6620555555">+66 2055
+                            5555</a>
+                    </div>
+                    <div class="col-sm" id="address">
+                        <a id="address-text" href="https://goo.gl/maps/mBXAHd4H3k38ki7s5">1111 Sukumvit Road Bangkok
+                            10110
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- NAVBAR -->
+        <div class="container-fluid">
+            <div id="main-menu">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg navbar-light ml-auto bg-light">
+                        <a class="navbar-brand" href="#">
+                            <div class="col" id="logo">
+                                <img src="img/logo.svg" alt="St.Martin Hospital Privet Hospital">
+                            </div>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">ABOUTE US</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        SERVICES
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        PLANS & PAYMENT
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        CONTACT US
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        WEBSHOP
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle caret" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img id="search-icon" src="/img/search.svg" alt="Search">
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <form class="form-inline my-2 my-lg-0">
+                                            <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                                aria-label="Search">
+                                            <button class="btn btn-outline-success my-2 my-sm-0"
+                                                type="submit">Search</button>
+                                        </form>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+
+        <section id="hero">
+            <div class="container-fluid p-0">
+                <div id="carousel" class="carousel slide hero-slides" data-interval="3000" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li class="active" data-target="#carousel" data-slide-to="0"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active family">
+                            <div class="container h-100 d-md-block">
+                                <div class="row align-items-center h-100">
+                                    <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                                        <div class="caption animated fadeIn">
+                                            <h2 class="animated fadeInLeft"><small>WELCOME TO</small><br>
+                                                <strong>ST. MARTIN</strong>
+                                                MEDCLINIC</h2>
+                                            <p class="animated fadeInRight">Our ultimate goal to provide the
+                                                best tailored treatment for our patients. Since opening in 2000,
+                                                St.Martin Medclinic has won several awards in Privet Healthcare.
+                                                Not in vain, because we believe
+                                                that <i>Your</i> health comes first.</p>
+                                            <a class="animated fadeInUp btn delicious-btn" href="#"><small>BOOK AN APPOINTMENT</small></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item doctor">
+                            <div class="container h-100 d-md-block">
+                                <div class="row align-items-center h-100">
+                                    <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                                        <div class="caption animated fadeIn">
+                                            <h2 class="animated fadeInLeft">Discover the canyon by the sea</h2>
+                                            <p class="animated fadeInRight">Lorem ipsum dolor sit amet,
+                                                consectetur adipiscing elit. Cras tristique nisl vitae luctus
+                                                sollicitudin. Fusce consectetur sem eget dui tristique, ac
+                                                posuere arcu varius.</p>
+                                            <a class="animated fadeInUp btn delicious-btn" href="#"><small>BOOK AN APPOINTMENT</small>
+                                                </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item building">
+                            <div class="container h-100 d-md-block">
+                                <div class="row align-items-center h-100">
+                                    <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                                        <div class="caption animated fadeIn">
+                                            <h2 class="animated fadeInLeft">Explore the river valley</h2>
+                                            <p class="animated fadeInRight">Lorem ipsum dolor sit amet,
+                                                consectetur adipiscing elit. Cras tristique nisl vitae luctus
+                                                sollicitudin. Fusce consectetur sem eget dui tristique, ac
+                                                posuere arcu varius.</p>
+                                            <a class="animated fadeInUp btn delicious-btn" href="#"><small>BOOK AN APPOINTMENT</small></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+        </section>
+
+        <section id="search-box">
+            <div class="card-deck">
+                <div class="row">
+                    <div id="search-cards1" class="col-12 col-md-6 col-lg-4 card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                            <a href="#" class="btn btn-primary search-btn">Book Now</a>
+                        </div>
+                    </div>
+                    <div id="search-cards2" class="col-12 col-md-6 col-lg-4 card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                            <a href="#" class="btn btn-primary search-btn">Read More</a>
+                        </div>
+                    </div>
+                    <div id="search-cards3" class="col-12 col-md-6 col-lg-4 card text-center" >
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                            <a href="#" class="btn btn-primary search-btn">Read More</a>
+                        </div>
+                    </div>
+                    <div id="search-cards4" class="col-12 col-md-6 col-lg-4 card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                            <a href="#" class="btn btn-primary search-btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="features">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <img class="img-shadow" src="/img/close-up-doctor-holding-coronavirus-test.jpg" alt="test" style="width:100%;">
+                        <div class="card-body centered">
+                            <img src="img/test-tube.svg" alt="Test tube">
+                            <h5 class="card-title">COVID-19 Testing</h5>
+                            <p class="card-text">We offer PCR Testing,
+                                Antigen and Antibody Testing.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card"> <img class="img-shadow" src="/img/doctor-advising-patient-online-with-laptop.jpg" alt="test"
+                            style="width:100%;">
+                        <div class="card-body centered">
+                            <img src="img/laptop.svg" alt="Laptop">
+                            <h5 class="card-title">E-visiting</h5>
+                            <p class="card-text">See your doctor without leaving your home.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="centers">
+            <div class="container-fluid py-3">
+                <div class="title h3 text-center">Our Specialty Centers</div>
+                <!-- Card Start -->
+                <div class="card">
+                    <div class="row ">
+                        <!-- Carousel start -->
+                        <div class="col-md-5">
+                            <div id="CarouselTest" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#CarouselTest" data-slide-to="0" class="active"></li>
+                                    <li data-target="#CarouselTest" data-slide-to="1"></li>
+                                    <li data-target="#CarouselTest" data-slide-to="2"></li>
+
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="card">
+                                            <img src="/img/plastic-surgerie.jpg" alt="test" style="width:100%;">
+                                            <div class="card-body centered">
+                                                <h5 class="card-title">Plastic Surgery</h5>
+                                                <p class="card-text">Vivamus suscipit tortor eget felis porttitor volutpat. M.D Stephen Strange vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula.
+                                                </p>
+                                                <a href="#" class="btn btn-primary">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card">
+                                            <img src="/img/doctor-explaining-diagnosis.jpg" alt="doctor-explaining-diagnosis" style="width:100%;">
+                                            <div class="card-body centered">
+                                                <h5 class="card-title">Plastic Surgery</h5>
+                                                <p class="card-text">Vivamus suscipit tortor eget felis porttitor volutpat. M.D Stephen Strange vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula.
+                                                </p>
+                                                <a href="#" class="btn btn-primary">Read More</a>
+                                            </div>
+                                        </div>                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card">
+                                            <img src="/img/pation-treatment.jpg" alt="pation-treatment" style="width:100%;">
+                                            <div class="card-body centered">
+                                                <h5 class="card-title">Plastic Surgery</h5>
+                                                <p class="card-text">Vivamus suscipit tortor eget felis porttitor volutpat. M.D Stephen Strange vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula.
+                                                </p>
+                                                <a href="#" class="btn btn-primary">Read More</a>
+                                            </div>
+                                        </div>                                    </div>
+                                    <a class="carousel-control-prev" href="#CarouselTest" role="button"
+                                        data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#CarouselTest" role="button"
+                                        data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of carousel -->
+
+                        <div class="col-md-7 px-3">
+                            <div class="card-block px-6">
+                                <h4 class="card-title">Plastic Surgery</h4>
+                                <p class="card-text">
+                                    Vivamus suscipit tortor eget felis porttitor volutpat. M.D Stephen Strange vivamus
+                                    suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam
+                                    vehicula.</p>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum eos
+                                    doloribus voluptate, consequatur molestiae totam omnis dolor odio. Velit asperiores
+                                    quo unde facilis qui? Excepturi vitae nisi eligendi fuga. Quibusdam!</p>
+                                <a href="#">Learn More >></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of card -->
+            </div>
+        </section>
+
+        <section id="why">
+            <div class="content-box">
+                <h2 class="align-center">Why St.Martin
+                    Medclinic?</h2>
+                <div class="column-2">
+                    <div class="row">
+                        <div>
+                            <img class="check-icons" src="/img/check.svg" alt="Check box">
+                            <h3 class="check-icons">SCHEDULED APPOINTMENT</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, ea? <a
+                                    href="#"><b>More.</b></a></p>
+                        </div>
+                        <div>
+                            <img class="check-icons" src="/img/check.svg" alt="Check box">
+                            <h3 class="check-icons">MODERN FACILITIES</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, ea? <a
+                                    href="#"><b>More.</b></a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div>
+                            <img class="check-icons" src="/img/check.svg" alt="Check box">
+                            <h3 class="check-icons">E-VISITS</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, ea? <a
+                                    href="#"><b>More.</b></a></p>
+                        </div>
+                        <div>
+                            <img class="check-icons" src="/img/check.svg" alt="Check box">
+                            <h3 class="check-icons">MEDICAL INSURENCE</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, ea? <a
+                                    href="#"><b>More.</b></a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div>
+                            <img class="check-icons" src="/img/check.svg" alt="Check box">
+                            <h3 class="check-icons">PAYMENT OPTIONS</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, ea? <a
+                                    href="#"><b>More.</b></a></p>
+                        </div>
+                        <div>
+                            <img class="check-icons" src="/img/check.svg" alt="Check box">
+                            <h3 class="check-icons">ENGLISH - SPEAKING STAFF</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, ea? <a
+                                    href="#"><b>More.</b></a></p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="banner" id="advert">
+            <div class="banner-highlights">
+                <div class="row container">
+
+                    <div class="col-sm-12 col-lg-12 float-left" id="banner-text">
+                        <h2>GET 30% OFF SALE</h2>
+                        <p>Book your session with me before 31st of November and avail 30% flat discount.</p>
+                    </div>
+                    <div class="col-sm-12 col-lg-12">
+                        <a href="#" class="btn booking-btn">Book Now</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="galleries">
+
+            <div class="container">
+                <div class="row">
+                    <div id="carousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel" data-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="d-none d-sm-block d-md-block d-lg-block">
+                                    <div class="slide-box">
+                                        <img src="https://picsum.photos/285/200/?image=0&random" alt="First slide">
+                                        <img src="https://picsum.photos/285/200/?image=1&random" alt="First slide">
+                                        <img src="https://picsum.photos/285/200/?image=2&random" alt="First slide">
+                                    </div>
+                                </div>
+                                <div class="d-none d-md-block d-lg-none">
+                                    <div class="slide-box">
+                                        <img src="https://picsum.photos/240/200/?image=0&random" alt="First slide">
+                                        <img src="https://picsum.photos/240/200/?image=1&random" alt="First slide">
+                                        <img src="https://picsum.photos/240/200/?image=2&random" alt="First slide">
+                                    </div>
+                                </div>
+                                <div class="d-none d-sm-block d-md-none">
+                                    <div class="slide-box">
+                                        <img src="https://picsum.photos/270/200/?image=0&random" alt="First slide">
+                                        <img src="https://picsum.photos/270/200/?image=1&random" alt="First slide">
+                                    </div>
+                                </div>
+                                <div class="d-block d-sm-none">
+                                    <img class="d-block w-100" src="https://picsum.photos/600/400/?image=0&random"
+                                        alt="First slide">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-none d-lg-block">
+                                    <div class="slide-box">
+                                        <img src="https://picsum.photos/285/200/?image=4&random" alt="Second slide">
+                                        <img src="https://picsum.photos/285/200/?image=5&random" alt="Second slide">
+                                        <img src="https://picsum.photos/285/200/?image=6&random" alt="Second slide">
+                                    </div>
+                                </div>
+                                <div class="d-none d-md-block d-lg-none">
+                                    <div class="slide-box">
+                                        <img src="https://picsum.photos/240/200/?image=3&random" alt="Second slide">
+                                        <img src="https://picsum.photos/240/200/?image=4&random" alt="Second slide">
+                                        <img src="https://picsum.photos/240/200/?image=5&random" alt="Second slide">
+                                    </div>
+                                </div>
+                                <div class="d-none d-sm-block d-md-none">
+                                    <div class="slide-box">
+                                        <img src="https://picsum.photos/270/200/?image=2&random" alt="Second slide">
+                                        <img src="https://picsum.photos/270/200/?image=3&random" alt="Second slide">
+                                    </div>
+                                </div>
+                                <div class="d-block d-sm-none">
+                                    <img class="d-block w-100" src="https://picsum.photos/600/400/?image=1&random"
+                                        alt="Second slide">
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="news">
+
+            <div class="container">
+                <div class="row">
+                    <div id="carousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel" data-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="d-none d-lg-block">
+                                    <div class="slide-box">
+                                        <img src="https://picsum.photos/285/200/?image=0&random" alt="First slide">
+                                        <img src="https://picsum.photos/285/200/?image=1&random" alt="First slide">
+                                        <img src="https://picsum.photos/285/200/?image=2&random" alt="First slide">
+                                        <img src="https://picsum.photos/285/200/?image=3&random" alt="First slide">
+                                    </div>
+                                </div>
+                                <div class="d-none d-md-block d-lg-none">
+                                    <div class="slide-box">
+                                        <img src="https://picsum.photos/240/200/?image=0&random" alt="First slide">
+                                        <img src="https://picsum.photos/240/200/?image=1&random" alt="First slide">
+                                        <img src="https://picsum.photos/240/200/?image=2&random" alt="First slide">
+                                    </div>
+                                </div>
+                                <div class="d-none d-sm-block d-md-none">
+                                    <div class="slide-box">
+                                        <img src="https://picsum.photos/270/200/?image=0&random" alt="First slide">
+                                        <img src="https://picsum.photos/270/200/?image=1&random" alt="First slide">
+                                    </div>
+                                </div>
+                                <div class="d-block d-sm-none">
+                                    <img class="d-block w-100" src="https://picsum.photos/600/400/?image=0&random"
+                                        alt="First slide">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-none d-lg-block">
+                                    <div class="slide-box">
+                                        <img src="https://picsum.photos/285/200/?image=4&random" alt="Second slide">
+                                        <img src="https://picsum.photos/285/200/?image=5&random" alt="Second slide">
+                                        <img src="https://picsum.photos/285/200/?image=6&random" alt="Second slide">
+                                        <img src="https://picsum.photos/285/200/?image=7&random" alt="Second slide">
+                                    </div>
+                                </div>
+                                <div class="d-none d-md-block d-lg-none">
+                                    <div class="slide-box">
+                                        <img src="https://picsum.photos/240/200/?image=3&random" alt="Second slide">
+                                        <img src="https://picsum.photos/240/200/?image=4&random" alt="Second slide">
+                                        <img src="https://picsum.photos/240/200/?image=5&random" alt="Second slide">
+                                    </div>
+                                </div>
+                                <div class="d-none d-sm-block d-md-none">
+                                    <div class="slide-box">
+                                        <img src="https://picsum.photos/270/200/?image=2&random" alt="Second slide">
+                                        <img src="https://picsum.photos/270/200/?image=3&random" alt="Second slide">
+                                    </div>
+                                </div>
+                                <div class="d-block d-sm-none">
+                                    <img class="d-block w-100" src="https://picsum.photos/600/400/?image=1&random"
+                                        alt="Second slide">
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="content-box">
+            <div id="foot-info">
+                <ul>
+                    <li><b>Címünk:</b> 2800 Tatabánya, Dózsa György utca 7.</li>
+                    <li><b>Email:</b> info@electric.hu</li>
+                    <li><b>Telefon:</b> +36 20 222 5555</li>
+                </ul>
+            </div>
+            <div id="foot-menu">
+                <ul>
+                    <li><a href="#">Adatvédelimi nyilatkozat</a></li>
+                    <li><a href="#">Cookie információk</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div id="copyright">
+        <div class="content-box">
+            <p>© 2020 Electrico Kft. Minden jog fenntartva. | weboldal készítés: <a href="#">123design</a>
+            </p>
+        </div>
+    </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
